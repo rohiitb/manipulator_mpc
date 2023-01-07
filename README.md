@@ -8,6 +8,17 @@ Packages- First make sure you have [panda_simulator](https://github.com/justagis
 <!-- ![rrt_algo](imgs/rrt_algo.png) -->
 
 ## Performance:
+
+<table>
+  <tr>
+      <td align = "center"> <img src="./Pictures/beacon.gif"> </td>
+      <td> This task required the bot to find the IR light emitting tower. <br> The IR beacon tower is emitting light at a certain frequency which the bot detects                using an amplification circuit and moves towards it. The circuit designed works over a distance upto 5 mts. For more details, please refer to the report. </td>
+  </tr>
+  <tr>
+      <td align = "center"> Beacon Tracking</td>
+  </tr>
+</table>
+
 <img src=imgs/pandampc.png height="489" width="567" > <p></p>
 Figure 1: Trajectory optimization using RRT and MPC
 
