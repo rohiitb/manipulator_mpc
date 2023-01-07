@@ -4,9 +4,8 @@
 In this project, we present an approach to implement an online planning and control mechanism for safe control of 7 DoF manipulator arm. We discuss two approaches to implement static and dynamic obstacle avoidance. We validate our algorithm on multiple maps with objects in Gazebo. The solver used for converging the MPC solution is Drake. 
 
 ## Usage:
-1) Install dependencies (required only for running this in ROS)-
-Packages- First make sure you have [panda_simulator](https://github.com/justagist/panda_simulator/tree/noetic-devel); then clone this repository. Rename the file rename_to_meam520_labs to meam520_labs
-2) Run this [file](/rename_to__meam520_labs/lib/final_project.ipynb)
+1) Install dependencies (required only for running this in ROS) - Packages - First make sure you have [panda_simulator](https://github.com/justagist/panda_simulator/tree/noetic-devel); then clone this repository. Rename the file rename_to_meam520_labs to meam520_labs
+2) Run this [file](/rename_to__meam520_labs/lib/final_project.ipynb).
 
 <!-- ![rrt_algo](imgs/rrt_algo.png) -->
 
