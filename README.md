@@ -9,13 +9,12 @@ Packages- First make sure you have [panda_simulator](https://github.com/justagis
 
 ## Performance:
 
-<table>
+<table class="centerTable">
   <tr>
-      <td align = "center"> <img src="./Pictures/beacon.gif"> </td>
-      <td> This task required the bot to find the IR light emitting tower. <br> The IR beacon tower is emitting light at a certain frequency which the bot detects                using an amplification circuit and moves towards it. The circuit designed works over a distance upto 5 mts. For more details, please refer to the report. </td>
+      <td align = "center"> <img src="./imgs/franka_mpc.gif"> </td>
   </tr>
   <tr>
-      <td align = "center"> Beacon Tracking</td>
+      <td align = "center"> MPC on 7 DoF FrankaPanda Arm</td>
   </tr>
 </table>
 
