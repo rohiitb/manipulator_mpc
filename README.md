@@ -7,24 +7,21 @@ In this project, we present an approach to implement an online planning and cont
 1) Install dependencies (required only for running this in ROS) - Packages - First make sure you have [panda_simulator](https://github.com/justagist/panda_simulator/tree/noetic-devel); then clone this repository. Rename the file rename_to_meam520_labs to meam520_labs
 2) Run this [file](/rename_to__meam520_labs/lib/final_project.ipynb).
 
-<!-- ![rrt_algo](imgs/rrt_algo.png) -->
 
 ## Performance:
 
 <table class="centerTable">
   <tr>
       <td align = "center"> <img src="./imgs/franka_mpc.gif"> </td>
-      <td align = "center"><video width="320" height="240" controls>
-                            <source src="./imgs/arm_mpc_sim.mp4" type="video/mp4">
-
-                          </video></td>
   </tr>
   <tr>
       <td align = "center"> MPC on 7 DoF FrankaPanda Arm</td>
-      <td align = "center"> MPC on 7DoF manipulator arm in simulation</td>
-
   </tr>
 </table>
+
+<video width="320" height="240" autoplay>
+<source src="imgs/arm_mpc_sim.mp4" type="video/mp4">
+</video>
 
 <img src=imgs/pandampc.png height="489" width="567" > <p></p>
 Figure 1: Trajectory optimization using RRT and MPC
