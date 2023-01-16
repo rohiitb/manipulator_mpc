@@ -19,9 +19,15 @@ In this project, we present an approach to implement an online planning and cont
   </tr>
 </table>
 
-<video width="320" height="240" autoplay>
-<source src="imgs/arm_mpc_sim.mp4" type="video/mp4">
-</video>
+<table class="centerTable">
+  <tr>
+      <td align = "center"> <img src="./imgs/mpc_arm_gif.gif"> </td>
+  </tr>
+  <tr>
+      <td align = "center"> Simulation in Gazebo</td>
+  </tr>
+</table>
+
 
 <img src=imgs/pandampc.png height="489" width="567" > <p></p>
 Figure 1: Trajectory optimization using RRT and MPC
