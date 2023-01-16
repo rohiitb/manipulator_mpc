@@ -14,9 +14,15 @@ In this project, we present an approach to implement an online planning and cont
 <table class="centerTable">
   <tr>
       <td align = "center"> <img src="./imgs/franka_mpc.gif"> </td>
+      <td align = "center"><video width="320" height="240" controls>
+                            <source src="./imgs/arm_mpc_sim.mp4" type="video/mp4">
+
+                          </video></td>
   </tr>
   <tr>
       <td align = "center"> MPC on 7 DoF FrankaPanda Arm</td>
+      <td align = "center"> MPC on 7DoF manipulator arm in simulation</td>
+
   </tr>
 </table>
 
